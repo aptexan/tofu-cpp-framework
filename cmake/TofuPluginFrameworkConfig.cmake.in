@@ -1,0 +1,5 @@
+@PACKAGE_INIT@
+
+include(CMakeFindDependencyMacro)
+find_dependency(TofuPluginCpp)
+include("${CMAKE_CURRENT_LIST_DIR}/TofuPluginFrameworkTargets.cmake")
